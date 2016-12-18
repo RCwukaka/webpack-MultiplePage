@@ -1,0 +1,37 @@
+@media (min-width: 540px)
+.navbar {
+    border-radius: 0;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+
+nav.navbar-skore {
+    padding: 1em;
+}
+
+@media (min-width: 540px)
+.navbar-header {
+    float: left;
+}
+
+.navbar-header:after {
+    clear: both;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 5px 10px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 50px;
+}
+
+@media (min-width: 540px)
+.navbar-right {
+    float: right!important;
+    margin-right: -10px;
+}

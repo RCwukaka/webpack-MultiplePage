@@ -50,6 +50,10 @@ fs.watch('./src/views/', function() {
 	execWebpack()
 });
 
+fs.watch('./src/views/common/', function() {
+	execWebpack()
+});
+
 function execWebpack(){
 	exec('webpack --progress --hide-modules', function(err, stdout, stderr) {
 		if (err) {

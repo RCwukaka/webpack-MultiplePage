@@ -1,14 +1,35 @@
-/*布局*/
-.g-hd{
-	height: 50px;
-	background-color: #333;
+.g-header{
+  width:100%;
+  height:50px;
+  padding:5px 15px;
+  background-color:#21cdb2;
 }
-.g-bd{
-	padding: 20px;
-	min-height: 800px;
-	background: url(../../imgs/mask.png) repeat;
+
+.g-content{
+
 }
+
 .g-ft{
-	height: 50px;
-	background-color: #333;
+  width:100%;
+  height:50px;
+  padding:5px 15px;
+  background-color:#21cdb2;
+}
+
+@media (max-width: 768px)
+.g-header{
+  width:768px;
+  height:50px;
+  padding:5px 15px;
+  background-color:#21cdb2;
+}
+
+@media (max-width: 768px)
+.g-content{
+
+}
+
+@media (max-width: 768px)
+.g-ft{
+
 }
